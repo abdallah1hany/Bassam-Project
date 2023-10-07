@@ -1,0 +1,39 @@
+<section id="works" class="portfolio portfolio-grid portfolio-2 pb-70">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-md-offset-3">
+                      <div class="heading text-center mb-70">
+                          <h2 class="">Featured Work</h2>
+                          <div class="section-title-border mb-3 mt-3"></div>
+                            <p class="section-subtitle text-muted text-center font-secondary pt-4">We thrive when coming up with
+                                innovative ideas but also understand that a smart concept should be supported with faucibus sapien
+                                odio measurable results.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 portfolio-filter">
+                      <ul class="list-inline d-inline-flex">
+                          <li><a (click)="filterItems('All')" [class.active-filter]="selectedFilter === 'All'" href="#portfolio">All</a></li>
+                          <li><a (click)="filterItems('Building')" [class.active-filter]="selectedFilter === 'Building'" href="#portfolio">Building</a></li>
+                          <li><a (click)="filterItems('Construction')" [class.active-filter]="selectedFilter === 'Construction'" href="#portfolio">Construction</a></li>
+                          <li><a (click)="filterItems('Planning')" [class.active-filter]="selectedFilter === 'Planning'" href="#portfolio">Planning</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div id="portfolio-all" class="row">
+                  <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item" *ngFor="let item of filteredItems">
+                      <div class="portfolio--img">
+                          <img [src]="item.imageUrl" alt="portfolio image" />
+                          <div class="portfolio--hover">
+                              <div class="portfolio--meta">
+                                  <div class="portfolio--zoom"><a class="img-gallery-item" [href]="item.imageUrl"></a></div>
+                                  <h6><a href="#">{{ item.title }}</a></h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      

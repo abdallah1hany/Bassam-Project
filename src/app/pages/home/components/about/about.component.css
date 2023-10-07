@@ -1,0 +1,66 @@
+.stats-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Vertically center content */
+  background-color: white;
+  padding: 20px;
+}
+
+.stat {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.number-counter {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.stat-label {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.stat-img{
+  width: 50px;
+  height: 50px;
+}
+
+.stat-image {
+  max-width: 100%; /* Ensure images don't exceed their container width */
+  height: auto;
+  color: #fff;
+  margin-top: 10px; /* Add spacing between the number and image */
+}
+
+/* Animation class */
+.animate-stats {
+  animation: fadeInUp 1s ease-in-out; /* Example animation */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .stats-bar {
+    flex-direction: column; /* Stack stats vertically on smaller screens */
+    align-items: flex-start; /* Align items to the left */
+    padding: 10px; /* Reduce padding */
+  }
+
+  .stat {
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px; /* Add spacing between stats */
+  }
+}

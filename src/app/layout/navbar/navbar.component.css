@@ -1,0 +1,26 @@
+/* Style for the transparent navbar */
+.navbar-transparent {
+          background-color: transparent !important;
+          transition: background-color 0.3s ease-in-out;
+        }
+        
+        .navbar-transparent .navbar-brand {
+          color: white; /* Adjust text color as needed */
+        }
+        
+        /* Style for the opaque navbar */
+        .navbar-opaque {
+          background-color: #ffffff; /* Add your desired background color */
+          transition: background-color 0.3s ease-in-out;
+        }
+        
+        .navbar-opaque .navbar-brand {
+          color: #333; /* Adjust text color as needed */
+        }
+        
+        /* Style for the logo image */
+        .logo {
+          max-width: 80px; /* Adjust the maximum width as needed */
+          height: 60px;
+        }
+        

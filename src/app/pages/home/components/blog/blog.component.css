@@ -1,0 +1,18 @@
+blog-box .blog-title {
+          color: #272a33;
+          transition: all 0.5s;
+        }
+        
+        .blog-box .blog-title:hover {
+          color: #4341cc;
+        }
+        
+        .blog-box .read-btn {
+          font-size: 15px;
+          color: #4341cc;
+        }
+        
+        .blog-box .read-btn:hover {
+          color: #272a33 !important;
+        }
+        

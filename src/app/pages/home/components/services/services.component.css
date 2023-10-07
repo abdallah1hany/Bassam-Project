@@ -1,0 +1,85 @@
+h2{
+          
+          line-height: 40px;
+          color: #292929;
+          margin-bottom: 15px;
+}
+.about-box {
+	margin-top: 20px;
+	text-align: center;
+          padding: 20px;
+}
+
+.about-box i{
+	font-size: 58px;
+	margin-bottom: 0;
+	color:#4285f4;
+	display: inline-block;
+	line-height: 58px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.about-box h3{
+	font-size: 20px;
+          font-weight: 500;
+	color: #292929;
+	margin-bottom: 10px;
+          padding: 10px 0px;
+}
+
+.about-box p{
+	padding: 0 10px;
+}
+
+blockquote {
+	font-size: 16px;
+	color: #4285f4;
+	border-left: 2px solid #4285f4;
+}
+
+a.btn-download {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background: #4285f4;
+	border: 2px solid #4285f4;
+	border-radius: 5px 5px;
+	padding: 15px 25px;	
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+a.btn-download i{
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+a.btn-download:hover {
+	color: #4285f4;
+	background: transparent;
+	border:2px solid #4285f4;
+}
+
+ul.features-responsive{
+	margin-bottom: 40px;
+}
+
+ul.features-responsive li {	
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #8f8f8f;
+	display: block;
+	margin-bottom: 10px;
+}
+
+ul.features-responsive li i {
+	font-size: 18px;
+	vertical-align: bottom;
+	color: #4285f4;
+	margin-right: 10px;
+}
